@@ -13,6 +13,8 @@
 		8FD8B87115AEEF6100C21A63 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8FD8B86F15AEEF6100C21A63 /* Credits.rtf */; };
 		8FD8B87415AEEF6100C21A63 /* SPWKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD8B87315AEEF6100C21A63 /* SPWKAppDelegate.m */; };
 		8FD8B87715AEEF6100C21A63 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FD8B87515AEEF6100C21A63 /* MainMenu.xib */; };
+		8FD8B87F15AEEF8B00C21A63 /* SPWKMenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD8B87E15AEEF8B00C21A63 /* SPWKMenubarController.m */; };
+		8FD8B88215AEEFB100C21A63 /* SPWKStatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD8B88115AEEFB100C21A63 /* SPWKStatusItemView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		8FD8B87215AEEF6100C21A63 /* SPWKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPWKAppDelegate.h; sourceTree = "<group>"; };
 		8FD8B87315AEEF6100C21A63 /* SPWKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPWKAppDelegate.m; sourceTree = "<group>"; };
 		8FD8B87615AEEF6100C21A63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8FD8B87D15AEEF8B00C21A63 /* SPWKMenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPWKMenubarController.h; sourceTree = "<group>"; };
+		8FD8B87E15AEEF8B00C21A63 /* SPWKMenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPWKMenubarController.m; sourceTree = "<group>"; };
+		8FD8B88015AEEFB100C21A63 /* SPWKStatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPWKStatusItemView.h; sourceTree = "<group>"; };
+		8FD8B88115AEEFB100C21A63 /* SPWKStatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPWKStatusItemView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,10 @@
 			children = (
 				8FD8B87215AEEF6100C21A63 /* SPWKAppDelegate.h */,
 				8FD8B87315AEEF6100C21A63 /* SPWKAppDelegate.m */,
+				8FD8B87D15AEEF8B00C21A63 /* SPWKMenubarController.h */,
+				8FD8B87E15AEEF8B00C21A63 /* SPWKMenubarController.m */,
+				8FD8B88015AEEFB100C21A63 /* SPWKStatusItemView.h */,
+				8FD8B88115AEEFB100C21A63 /* SPWKStatusItemView.m */,
 				8FD8B87515AEEF6100C21A63 /* MainMenu.xib */,
 				8FD8B86715AEEF6100C21A63 /* Supporting Files */,
 			);
@@ -169,6 +179,8 @@
 			files = (
 				8FD8B86D15AEEF6100C21A63 /* main.m in Sources */,
 				8FD8B87415AEEF6100C21A63 /* SPWKAppDelegate.m in Sources */,
+				8FD8B87F15AEEF8B00C21A63 /* SPWKMenubarController.m in Sources */,
+				8FD8B88215AEEFB100C21A63 /* SPWKStatusItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
